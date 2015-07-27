@@ -1,0 +1,5 @@
+
+menus:
+    side:
+    - Acoustic analysis: acoustic.html
+    - Tags: /tags/

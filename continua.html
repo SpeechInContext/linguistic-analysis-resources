@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Linguistic-analysis-resources by SpeechInContext</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Linguistic-analysis-resources</h1>
+        <p>Collection of resources for analyzing linguistic data of various kinds</p>
+
+        <p class="view"><a href="https://github.com/SpeechInContext/linguistic-analysis-resources">View the Project on GitHub <small>SpeechInContext/linguistic-analysis-resources</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/SpeechInContext/linguistic-analysis-resources/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/SpeechInContext/linguistic-analysis-resources/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/SpeechInContext/linguistic-analysis-resources">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="user-content-straight" class="anchor" href="#straight" aria-hidden="true"><span class="octicon octicon-link"></span></a>STRAIGHT</h1>
+
+<p><a href="http://www.wakayama-u.ac.jp/%7Ekawahara/STRAIGHTadv/index_e.html">Home page</a></p>
+
+<h2>
+<a id="user-content-tutorial" class="anchor" href="#tutorial" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tutorial</h2>
+
+<p>1. Open Matlab with STRAIGHT on it. Only the one on Britta in Molly's lab has STRAIGHT.</p>
+
+<img src="static/straight_tutorial/straight_part1.PNG">
+
+<p>2. Type MorphingMenu and hit enter. A new window will pop up.</p>
+
+<img src="static/straight_tutorial/straight_part2.PNG">
+
+<p>3. Click "Load waveform" on the lefthand side of the box. Browse to the first audio file you want.</p>
+
+<p>4. Click “Analyze”. A new window will pop up. </p>
+
+<img src="static/straight_tutorial/straight_part3.PNG">
+
+<p>5. Click “F0/F0 structure extraction”. A new window will pop up.</p>
+
+<img src="static/straight_tutorial/straight_part4.PNG">
+
+
+<p>6. Click  “Calculate”. Wait until the image of a pitch track appears.</p>
+
+<img src="static/straight_tutorial/straight_part5.PNG">
+
+
+<p>7. Click “Auto tracking”. </p>
+
+<img src="static/straight_tutorial/straight_part6.PNG">
+
+<p>8. At the bottom part of this window, there should be a waveform with green boxes. These green boxes need to be aligned with the voiced segments (vowels and voiced consonants) in the waveform. To zoom in, left click on the x-axis. To zoom out, hold shift and left click on the x-axis. Move the green boxes by dragging the edges until they are aligned with the voiced parts. Also make sure there are no extra green boxes. You can get rid of them by dragging the borders together. </p>
+
+
+<img src="static/straight_tutorial/straight_part7.PNG">
+
+<p>9. Click “Finish/Upload”.  This will close the window with the pitch track and waveform.</p>
+
+<img src="static/straight_tutorial/straight_part8.PNG">
+
+
+<p>10. Click “Aperiodicity extraction” in the window where you clicked “F0/F0 structure extraction”. </p>
+
+
+<p>11. Click “STRAIGHT spectrum” in that same window. </p>
+
+<img src="static/straight_tutorial/straight_part9.PNG">
+
+
+<p>12. Click “Save STRAIGHT object”. Browse to where you want to save it. I suggest a folder called “matsynth”. Give it a name and save.</p>
+
+
+<p>13. Hit “Finish/Upload”. This will close this window. </p>
+
+<img src="static/straight_tutorial/straight_part10.PNG">
+
+<p>14. Click “Load waveform” on the righthand side of the original MorphingMenu window. Browse to the second audio file you want to use. Then repeat steps 4 to 13 with that file.  </p>
+
+
+<p>NOTE 1: If you already have the synthesized file and need to go back to it later, you can do so using “Import” instead of “Load waveform” in the MorphingMenu window. </p>
+
+
+<p>15.  Hit “Play” on either of the two sides to refresh the window. </p>
+
+
+<p>16. Click “Open anchoring interface”. This will open a new window.</p>
+
+<img src="static/straight_tutorial/straight_part11.PNG">
+
+
+<p>17. Click “Calculate distance matrix”. Wait until the image appears on the right.</p>
+
+<img src="static/straight_tutorial/straight_part12.PNG">
+
+
+<p>18. Use the small square at the top to zoom in and out (zoom in by left clicking, zoom out by holding shift and left clicking). </p>
+
+<img src="static/straight_tutorial/straight_part13.PNG">
+
+<p>19. Add new markers to the line in the larger box on the right by clicking the line. (Remove them by shift + click). You want one marker for the beginning and end of each sound. Use the spectrograms at the left to align the markers, and use F2/F3 as markers for where vowels start and end. </p>
+
+<p>20. Click “Save morphing substrate”. Browse to where you want to save it. I suggest a folder called “matsubstrate”. Give it a name and save it. Then close the distance matrix window. </p>
+
+
+<p>21. In the original MorphingMenu window, click “Load morphing substrate”. Browse to the file you just saved and load it. </p>
+
+<img src="static/straight_tutorial/straight_part14.PNG">
+
+<p>22. Click “Initialize morphing rate”. </p>
+
+
+<p>23. Click “Edit morphing rate”. A new box will come up. </p>
+
+<img src="static/straight_tutorial/straight_part15.PNG">
+
+<p>24. In the first of the boxes with lines, move the line all the way down to A. </p>
+
+<img src="static/straight_tutorial/straight_part16.PNG">
+
+
+<p>25. Click “Set up morphing rate”.  This will take you back to the MorphingMenu window.</p>
+
+<img src="static/straight_tutorial/straight_part17.PNG">
+
+
+<p>26. Click “Save morphing substrate”. Navigate to where you saved the previous substrate, and save this with the same name but with A at the end (e.g. sabash_shabashA). </p>
+
+
+<p>27. Click “Edit morphing rate” again. </p>
+
+
+<p>28. This time, move the line all the way up to B. </p>
+
+<img src="static/straight_tutorial/straight_part18.PNG">
+
+
+<p>29. Click “Set up morphing rate” again.</p>
+
+
+<p>30. Click “Save morphing substrate”. Again, navigate to where you saved the previous substrate, and save this one with a B at the end (e.g. sabash_shabashB). </p>
+
+
+<p>31. Quit the MorphingMenu. You can now repeat these steps for as many continua as you need to make. Do these steps for all the continua you’re making before continuing to Step 32. </p>
+
+
+<p>32. From Matlab, open morph.continua.m (in document/matlab).</p>
+
+<img src="static/straight_tutorial/straight_part19.PNG">
+
+
+<p>33. In the first few lines of the script that opens, set the path to
+where you saved the substrates and the outpath to where you want the
+continua to appear. Also set the number of steps you want.</p>
+
+
+<p>34. Click “Run”. Once it finishes running, all the continua should be
+in the folder you specified as the outpath.</p>
+
+
+<p>NOTE: If you get an error message when you run the morph continua script,
+it usually works to go back to the stage where you create the substrate.
+Import the two matsynth files as specified in Note 1, then follow the
+remaining steps to redo the alignment and the substrates. Then try
+re-running the continua script. </p>
+
+<h1>
+<a id="user-content-splicing" class="anchor" href="#splicing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Splicing</h1>
+
+<p>To come soon!</p>
+</section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/SpeechInContext">SpeechInContext</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
