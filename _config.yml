@@ -1,2 +1,15 @@
+# Site settings
+title: Linguistic analysis resources
+email: molly.babel@ubc.ca
+description: > # this means to ignore newlines until "baseurl:"
+  Linguistic analysis resources is a repository devoted to collecting useful
+  resources to help linguists analyze data of various kinds.
+baseurl: /linguistic-analysis-resources # the subpath of your site, e.g. /blog/
+twitter_username: UBCSpeeCon
+github_username:  SpeechInContext
 
-navbar: true
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM

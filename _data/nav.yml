@@ -1,0 +1,38 @@
+- title: "Home"
+  href: "/"
+
+- title: "Acoustic analysis"
+  href: "/acoustic.html"
+  subcategories:
+    - subtitle: "Praat resources"
+      href: "praat.html"
+    - subtitle: "Forced alignment"
+      href: "forcedalignment.html"
+    - subtitle: "Speech continua"
+      href: "continua.html"
+
+- title: "Programming"
+  href: "/programming.html"
+  subcategories:
+    - subtitle: "Python"
+      href: "python.html"
+    - subtitle: "R"
+      href: "r.html"
+
+- title: "Data analysis"
+  href: "/data.html"
+  subcategories:
+    - subtitle: "Statistics"
+      href: "/statistics.html"
+    - subtitle: "Graphs"
+      href: "/rgraphs.html"
+
+- title: "Data sources"
+  href: "/datasources.html"
+  subcategories:
+    - subtitle: "Corpora"
+      href: "/corpora.html"
+    - subtitle: Phonological resources
+      href: "/phonological.html"
+    - subtitle: "Psycholinguistic resources"
+      href: "/psycholinguistic.html"
