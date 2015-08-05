@@ -5,19 +5,19 @@
   href: "/acoustic.html"
   subcategories:
     - subtitle: "Praat resources"
-      href: "praat.html"
+      href: "/praat.html"
     - subtitle: "Forced alignment"
-      href: "forcedalignment.html"
+      href: "/forcedalignment.html"
     - subtitle: "Speech continua"
-      href: "continua.html"
+      href: "/continua.html"
 
 - title: "Programming"
   href: "/programming.html"
   subcategories:
     - subtitle: "Python"
-      href: "python.html"
+      href: "/python.html"
     - subtitle: "R"
-      href: "r.html"
+      href: "/r.html"
 
 - title: "Data analysis"
   href: "/data.html"
